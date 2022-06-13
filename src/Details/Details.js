@@ -58,7 +58,8 @@ const Details = (props) => {
         <br />
         <input
           type="button"
-          className="submit-button"
+          disabled={formDetails?.name==="" || formDetails?.location===""}
+          className={`submit-button ${formDetails?.name==="" || formDetails?.location===""?"disable":""}`}
           onClick={fnSubmitDetails}
           value="Submit"
         />

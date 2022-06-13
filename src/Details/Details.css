@@ -30,7 +30,6 @@
   
   td, th {
     border: 1px solid #dddddd;
-    /* text-align: left; */
     padding: 8px;
   }
   
@@ -46,4 +45,8 @@
     background: black;
     color: white;
     font-size: 1.1rem;
+  }
+  .disable{
+      opacity: 0.5;
+      pointer-events: none;
   }
