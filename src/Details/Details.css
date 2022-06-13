@@ -1,0 +1,49 @@
+.input-details{
+    width: 25%;
+      border: none;
+      border-bottom: 1.5px solid black;
+      padding: 10px;
+      outline: none;
+      margin-bottom: 1rem;
+  }
+  .submit-button{
+    padding: 0.5rem 2rem;
+      font-size: 1rem;
+      background: black;
+      color: white;
+      border-radius: 25px;
+      border: 1px solid black;
+      cursor: pointer;
+  }
+  .table-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 4rem;
+  }
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    /* text-align: left; */
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  .delete-detail{
+      width: 1rem;
+      height: 1rem;
+      cursor: pointer;
+  }
+  .column{
+    background: black;
+    color: white;
+    font-size: 1.1rem;
+  }
